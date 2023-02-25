@@ -1,0 +1,97 @@
+#screenArea{
+    height:600px;
+    width:1000px;
+    background-color:aquamarine;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+@font-face {
+    font-family:betman ;
+    src: url(font_main.ttf);
+}
+#right{
+    height:600px;
+    width:250px;
+    background-color:rgb(50, 50, 50);
+    background-image: linear-gradient(to left, rgb(30, 30, 30) 20%, rgb(1, 2, 81));
+}
+#left{
+    height:600px;
+    width:250px;
+    background-color:rgb(50, 50, 50);
+    background-image: linear-gradient(to right, rgb(30, 30, 30) 20%, rgb(1, 2, 81));
+}
+#center{
+    height:600px;
+    width:500px;
+    background-color:rgb(1, 2, 51);
+}
+.menuButtons{
+    text-align:center;
+    cursor: pointer;
+    height:50px;
+    width:300px;
+    margin:5px;
+    margin-left:100px;
+    background-color:blue;
+    font-family:betman;
+    color:rgb(69, 20, 141);
+    font-size:1.75rem;
+    border-color:rgb(40, 40, 140);
+    border-radius:0.08em;
+    box-shadow: 0 0 1em rgb(40, 40, 240);
+}
+#menuPlay{
+    margin-top:80px;
+}
+#playArea{
+    height:460px;
+    width:460px;
+    margin:20px;
+    background-color:black; 
+}
+#gameCanvas{
+    border-width: 0.5px;
+    border:solid;
+    border-color: rgb(43, 43, 43);
+    margin:2px;
+}
+#startGameButton{
+    height:50px;
+    width:5ch;
+    margin-left:200px;
+    background-color:rgb(162, 130, 238);
+    transform: translateY(-300px);
+    font-family:betman;
+    color:rgb(88, 58, 224);
+    border-radius:0.08em;
+    box-shadow: 0 0 1em rgb(40, 40, 240);
+    cursor: pointer;
+}
+#score{
+    text-align: center;
+    height:50px;
+    width:50px;
+    margin-left:50px;
+    margin-top:5px;
+    background-color:rgb(162, 130, 238);
+    font-family:betman;
+    color:rgb(88, 58, 224);
+    border-radius:0.08em;
+    box-shadow: 0 0 1em rgb(40, 40, 240);
+}
+#timer{
+    height:30px;
+    width:140px;
+    margin-left:50px;
+    margin-top:30px;
+    transform: translateX(-24px);
+    background-color:rgb(162, 130, 238);
+    font-family:betman;
+    color:rgb(88, 58, 224);
+    border-radius:0.08em;
+    box-shadow: 0 0 1em rgb(40, 40, 240);
+}
+
+
+
